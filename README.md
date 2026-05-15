@@ -2,7 +2,7 @@
 
 A drop-in AI chat widget for any Next.js website. Built with Vercel AI SDK, supports both **OpenAI** (GPT-4o-mini) and **Anthropic Claude** (Claude 3.5 Haiku). Streaming responses, mobile-responsive, TypeScript-first.
 
-🔗 **[Live demo](https://your-vercel-url.vercel.app)** · 🛠️ **5-minute integration**
+🔗 **[Live demo](https://ai-chat-widget-elrym1eu8-andval07s-projects.vercel.app)** · 🛠️ **5-minute integration**
 
 ![Screenshot](./screenshot.png)
 
