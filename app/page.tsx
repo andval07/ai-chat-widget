@@ -16,7 +16,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-4">Features</h2>
           <ul className="space-y-2 text-gray-700">
             <li>✓ Streaming responses</li>
-            <li>✓ Works with OpenAI (GPT-4o-mini) and Anthropic (Claude 3.5 Haiku)</li>
+            <li>✓ Works with OpenAI (GPT-4o-mini) and Anthropic (Claude Haiku 4.5)</li>
             <li>✓ Mobile-responsive, accessible</li>
             <li>✓ TypeScript, Tailwind CSS</li>
             <li>✓ 5-minute integration into any Next.js project</li>
