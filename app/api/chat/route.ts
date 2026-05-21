@@ -11,7 +11,7 @@ export async function POST(req: Request) {
   // Choose provider based on env or request
   const model =
     provider === 'anthropic'
-      ? anthropic('claude-3-5-haiku-latest')
+      ? anthropic('claude-haiku-4-5-20251001')
       : openai('gpt-4o-mini');
 
   const result = streamText({
@@ -20,6 +20,9 @@ export async function POST(req: Request) {
       'You are a helpful assistant. Be concise, friendly, and professional. ' +
       'If you do not know something, say so honestly.',
     messages,
+    onError: (error) => {
+      console.error('streamText error:', JSON.stringify(error, null, 2));
+    },
   });
 
   return result.toDataStreamResponse();
