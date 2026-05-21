@@ -6,7 +6,7 @@ import { streamText } from 'ai';
 export const maxDuration = 30;
 
 export async function POST(req: Request) {
-  const { messages, provider = 'openai' } = await req.json();
+  const { messages, provider = 'anthropic' } = await req.json();
 
   // Choose provider based on env or request
   const model =
